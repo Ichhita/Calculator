@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6a6a6a
+}
+.calculator{
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 16px;
+    background: #040204;
+}
+input{
+    width: 400px;
+    border:none;
+    padding: 24px;
+    margin: 10px;
+    background: #b3b3b3;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder{
+    color:#ffffff;
+
+}
+button{
+    border: none;
+    width: 100px;
+    height: 60px;
+    margin: 1px;
+    border-radius: 50%;
+    background: #3a3a3a;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.equalbutton{
+    background-color : #a284a9 ;
+    
+}
+.operator{
+    color: #c0a4c4
+ 
+}
